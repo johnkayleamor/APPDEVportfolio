@@ -1,62 +1,50 @@
 @{
     ViewData["Title"] = "John Kayle Amor";
 }
-<section id="introduction" class ="portfolio-section">
-<div class="portfolio-container">
-    <div class ="profile-pic-container">
-        <img src="~/Profile_Pic.jpg" alt="My Profile Picture" class="profile-img" />
+
+<section id="introduction" class="portfolio-section">
+    <div class="portfolio-container">
+        <div class="profile-pic-container">
+            <img src="~/Profile_Pic.jpg" alt="My Profile Picture" class="profile-img" />
+        </div>
+        <div>
+            <h1>John Kayle Amor</h1>
+            <p class="lead text-info">Aspiring Software Developer</p>
+            <p>Hi! I'm a 2nd-year Computer Science student passionate about <br />building web applications, exploring software logic, and turning <br />ideas into clean code.</p>
+        </div>
     </div>
-    <div>
-        <h1>John Kayle Amor</h1>
-        <p>Hi! I'm a 2nd-year Computer Science student passionate about <br />building web applications, exploring software logic, and turning <br />ideas into clean code.</p>
-    </div>
-</div>
 </section>
 
-<hr class="my-5" style="border-color: #1e293b;"/>
+<hr class="my-5" style="border-color: #1e293b;" />
 
 <section id="skills" class="portfolio-section py-4">
-    <h2>Tech Stack & Skills</h2>
-    <p>Here are the technologies and tools i work with:</p>
+    <h2>Tech Stack &amp; Skills</h2>
+    <p>Here are the technologies and tools I work with:</p>
     <div class="row mt-3">
         <div class="col-md-4">
             <h5>Languages</h5>
-            <p>C, Java, Python, HTML, CSS</p>
+            <div class="d-flex flex-wrap gap-2">
+                <span class="badge skill-badge">C</span>
+                <span class="badge skill-badge">Java</span>
+                <span class="badge skill-badge">C#</span>
+                <span class="badge skill-badge">HTML</span>
+                <span class="badge skill-badge">CSS</span>
+            </div>
         </div>
         <div class="col-md-4">
-            <h5>Tech Stack</h5>
-            <p>VS Code, Git, Github, ASP.NET Core MVC</p>
+            <h5>Tools &amp; Frameworks</h5>
+            <div class="d-flex flex-wrap gap-2">
+                <span class="badge skill-badge">VS Code</span>
+                <span class="badge skill-badge">Git</span>
+                <span class="badge skill-badge">GitHub</span>
+                <span class="badge skill-badge">ASP.NET Core MVC</span>
+            </div>
         </div>
         <div class="col-md-4">
             <h5>Core Concepts</h5>
-            <p>Data Structure & Algorithm, Object-Oriented Programming(OOP)</p>
-        </div>
-    </div>
-</section>
-
-<hr class="my-5" style="border-color: #1e293b;"/>
-
-<section id="projects" class="portfolio-section py-4">
-    <h2>My Projects</h2>
-    <p>A few applications and systems I've built:</p>
-    
-    <div class="row mt-4">
-        <div class="col-md-4 mb-3">
-            <div class="card bg-dark text-light border-secondary p-3 h-100">
-                <h4>Tower of Hanoi</h4>
-                <p>An interactive web-based JavaScript visualizer featuring dynamic rod spacing and custom UI controls.</p>
-            </div>
-        </div>
-        <div class="col-md-4 mb-3">
-            <div class="card bg-dark text-light border-secondary p-3 h-100">
-                <h4>Pizza Ordering System</h4>
-                <p>An object-oriented Java console application handling discount calculations and receipt generation.</p>
-            </div>
-        </div>
-        <div class="col-md-4 mb-3">
-            <div class="card bg-dark text-light border-secondary p-3 h-100">
-                <h4>ASP.NET MVC Portfolio</h4>
-                <p>This dynamic personal portfolio website built using the modern MVC architecture pattern.</p>
+            <div class="d-flex flex-wrap gap-2">
+                <span class="badge skill-badge">Data Structure &amp; Algorithm</span>
+                <span class="badge skill-badge">OOP</span>
             </div>
         </div>
     </div>
@@ -64,9 +52,73 @@
 
 <hr class="my-5" style="border-color: #1e293b;" />
 
-<section id="contact" class="portfolio-section py-4 mb-5">
+<section id="projects" class="portfolio-section py-4">
+    <h2>My Projects</h2>
+    <p>A few web apps and systems I've built:</p>
+    <div class="row g-4">
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card project-card h-100 bg-dark text-light">
+                <img src="~/tower.png" class="card-img-top" alt="Tower of Hanoi" />
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Tower of Hanoi</h5>
+                    <p class="card-text">An interactive web-based JavaScript visualizer featuring dynamic rod spacing and custom UI controls.</p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="badge skill-badge">JavaScript</span>
+                        <span class="badge skill-badge">HTML/CSS</span>
+                        <span class="badge skill-badge">Python</span>
+                    </div>
+                    <div class="mt-auto pt-3">
+                        <a href="https://github.com/johnkayleamor/TOWER-OF-HANOI.git" class="btn btn-sm btn-outline-light" target="_blank" rel="noopener">GitHub</a>
+                        <a href="https://towerofhanio.netlify.app/" class="btn btn-sm btn-primary" target="_blank" rel="noopener">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card project-card h-100 bg-dark text-light">
+                <img src="~/flood.png" class="card-img-top" alt="Brgy. Flood Monitoring System" />
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Brgy. Flood Monitoring System</h5>
+                    <p class="card-text">A web app for monitoring floods in a small barangay to help identify priority areas and passable routes.</p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="badge skill-badge">C</span>
+                        <span class="badge skill-badge">HTML/CSS</span>
+                        <span class="badge skill-badge">JavaScript</span>
+                    </div>
+                    <div class="mt-auto pt-3">
+                        <a href="https://github.com/johnkayleamor/Flood-Monitoring.git" class="btn btn-sm btn-outline-light" target="_blank" rel="noopener">GitHub</a>
+                        <a href="https://agent-6a3d4046787e47647fb--floodmonitoringsystem.netlify.app/" class="btn btn-sm btn-primary" target="_blank" rel="noopener">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card project-card h-100 bg-dark text-light">
+                <img src="~/calc.png" class="card-img-top" alt="Quiz and Exam Probability Calculator" />
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Quiz and Exam Probability Calculator</h5>
+                    <p class="card-text">A calculator that computes your chances of passing a subject based on different factors.</p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="badge skill-badge">C</span>
+                    </div>
+                    <div class="mt-auto pt-3">
+                        <a href="https://github.com/johnkayleamor/Papasa-Kaba-Calculator.git" class="btn btn-sm btn-outline-light" target="_blank" rel="noopener">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<hr class="my-5" style="border-color: #1e293b;" />
+
+<section id="contact" class="portfolio-section py-4">
     <h2>Get In Touch</h2>
     <p>Feel free to reach out to me via email or check out my repositories on GitHub!</p>
-    <p><strong>Email:</strong><a href="mailto:johnkayleamor@gmail.com"> johnkayleamor@gmail.com</a></p>
-    <p><strong>GitHub:</strong> <a href="https://github.com/johnkayleamor">github.com/johnkayleamor</a></p>
+    <p><strong>Email:</strong> <a href="mailto:johnkayleamor@gmail.com">johnkayleamor@gmail.com</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/johnkayleamor" target="_blank" rel="noopener">github.com/johnkayleamor</a></p>
 </section>
