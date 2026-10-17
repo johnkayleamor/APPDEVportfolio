@@ -93,7 +93,6 @@ C:\Users\Dexter\APPDEVportfolio\obj\Debug\net10.0\refint\APPDEVportfolio.dll
 C:\Users\Dexter\APPDEVportfolio\obj\Debug\net10.0\APPDEVportfolio.pdb
 C:\Users\Dexter\APPDEVportfolio\obj\Debug\net10.0\APPDEVportfolio.genruntimeconfig.cache
 C:\Users\Dexter\APPDEVportfolio\obj\Debug\net10.0\ref\APPDEVportfolio.dll
-C:\Users\Dexter\APPDEVportfolio\obj\Debug\net10.0\scopedcss\Views\Home\Portfolio.cshtml.rz.scp.css
-C:\Users\Dexter\APPDEVportfolio\obj\Debug\net10.0\compressed\zvyp41izt3-{0}-fojfmb0pmu-fojfmb0pmu.gz
-C:\Users\Dexter\APPDEVportfolio\obj\Debug\net10.0\compressed\brr4tensft-{0}-fpz0gireuq-fpz0gireuq.gz
-C:\Users\Dexter\APPDEVportfolio\obj\Debug\net10.0\compressed\u5i74dqbol-{0}-fpz0gireuq-fpz0gireuq.gz
+C:\Users\Dexter\APPDEVportfolio\obj\Debug\net10.0\compressed\brr4tensft-{0}-8mhgj632ng-8mhgj632ng.gz
+C:\Users\Dexter\APPDEVportfolio\obj\Debug\net10.0\compressed\u5i74dqbol-{0}-8mhgj632ng-8mhgj632ng.gz
+C:\Users\Dexter\APPDEVportfolio\obj\Debug\net10.0\compressed\zvyp41izt3-{0}-1jkipdm7ux-1jkipdm7ux.gz
