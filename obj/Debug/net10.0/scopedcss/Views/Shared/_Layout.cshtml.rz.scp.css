@@ -46,3 +46,8 @@ button.accept-policy[b-1iifembjxz] {
   white-space: nowrap;
   line-height: 60px;
 }
+
+.button-group a.galaxy-btn[b-1iifembjxz] {
+    text-decoration: none !important;
+}
+

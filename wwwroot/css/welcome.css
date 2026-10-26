@@ -258,3 +258,11 @@ body {
     transition-duration: 0.01ms !important;
   }
 }
+
+.galaxy-btn,
+.galaxy-btn:hover,
+.galaxy-btn:focus,
+.galaxy-btn:visited {
+    text-decoration: none;
+    color: #fff;
+}

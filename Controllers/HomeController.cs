@@ -6,17 +6,26 @@ namespace APPDEVportfolio.Controllers;
 
 public class HomeController : Controller
 {
+
     public IActionResult Index()
     {
         return View();
     }
-
     public IActionResult Privacy()
     {
         return View();
     }
+    public IActionResult Amor()
+    {
+        return View();
+    }
 
-    public IActionResult Portfolio()
+    public IActionResult Conde()
+    {
+        return View();
+    }
+
+    public IActionResult Mabute()
     {
         return View();
     }
