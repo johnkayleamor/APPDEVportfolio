@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dexter\\APPDEVportfolio\\APPDEVportfolio.csproj": {}
+    "C:\\Projects\\APPDEVportfolio\\APPDEVportfolio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dexter\\APPDEVportfolio\\APPDEVportfolio.csproj": {
+    "C:\\Projects\\APPDEVportfolio\\APPDEVportfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dexter\\APPDEVportfolio\\APPDEVportfolio.csproj",
+        "projectUniqueName": "C:\\Projects\\APPDEVportfolio\\APPDEVportfolio.csproj",
         "projectName": "APPDEVportfolio",
-        "projectPath": "C:\\Users\\Dexter\\APPDEVportfolio\\APPDEVportfolio.csproj",
-        "packagesPath": "C:\\Users\\Dexter\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dexter\\APPDEVportfolio\\obj\\",
+        "projectPath": "C:\\Projects\\APPDEVportfolio\\APPDEVportfolio.csproj",
+        "packagesPath": "C:\\Users\\jmrst\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\APPDEVportfolio\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Dexter\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\jmrst\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
