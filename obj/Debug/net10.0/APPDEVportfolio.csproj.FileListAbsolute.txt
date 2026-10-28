@@ -96,4 +96,4 @@ C:\Projects\APPDEVportfolio\obj\Debug\net10.0\refint\APPDEVportfolio.dll
 C:\Projects\APPDEVportfolio\obj\Debug\net10.0\APPDEVportfolio.pdb
 C:\Projects\APPDEVportfolio\obj\Debug\net10.0\APPDEVportfolio.genruntimeconfig.cache
 C:\Projects\APPDEVportfolio\obj\Debug\net10.0\ref\APPDEVportfolio.dll
-C:\Projects\APPDEVportfolio\obj\Debug\net10.0\compressed\bitr1bxuv2-{0}-p3dw06fd6q-p3dw06fd6q.gz
+C:\Projects\APPDEVportfolio\obj\Debug\net10.0\compressed\bitr1bxuv2-{0}-vt1qdk1vbc-vt1qdk1vbc.gz
